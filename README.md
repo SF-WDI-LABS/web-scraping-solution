@@ -1,24 +1,7 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This repo serves as an example of how you could write a web scraping rake task.
+There are only two differences between this repo and a basic `rails new` app:
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* I used `rails g model` and migrated to create a basic `Sandal` model.
+* I added a [rake task](lib/tasks/scraper.rake) that uses Nokogiri to scrape data.
