@@ -1,4 +1,5 @@
 # Pro tip: run this with 'rake scraper:wsandals'
+require 'open-uri'
 namespace :scraper do
   desc "Helpful scraping scripts"
   task wsandals: :environment do
